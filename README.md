@@ -1,10 +1,28 @@
 # Оптимизация контейнеров
-[![Documentation Status](https://readthedocs.org/projects/containers-optimize/badge/?version=latest)](http://containers-optimize.readthedocs.io/en/latest/?badge=latest)
 
 ## Установка
 * Установить системные зависимости
-  * [Install pipenv](https://gist.github.com/slushkovsky/9200486665f8643b1577b4bbee011540)
-  * [Install redis](https://gist.github.com/slushkovsky/1adfd21284212f13afeea109d43e7d55)
+  ## With pip (recomended)
+
+  `pip install pipenv`
+
+  ## With brew
+
+  `brew install pipenv`
+
+
+  ## Ubuntu
+
+  ```
+  apt update
+  apt install redis-server
+  ```
+
+  ## MacOS
+
+  ```
+  brew install redis
+  ```
 * Установить python зависимости: `pipenv install`
 
 ## Запуск
